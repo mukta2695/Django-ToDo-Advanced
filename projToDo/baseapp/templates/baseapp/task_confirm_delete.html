@@ -1,0 +1,14 @@
+{% extends 'baseapp/main.html' %}
+{% block content %}
+
+<div class="body">
+    <h3 class="header-bar" id="add-header">Delete Task</h3>
+    <form method="POST"> 
+        {%csrf_token%}
+        <p> Are you sure you want to delete this "{{task}}" task? </p>
+        <input class="search-button" type="submit" value="Delete"/>
+        <a id="cancel-icon" href="{% url 'tasks' %}"> Cancel </a>
+    </form>
+</div>
+
+{% endblock content %}

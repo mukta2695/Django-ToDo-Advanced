@@ -1,0 +1,92 @@
+{% extends 'baseapp/main.html' %}
+{% block content %}
+
+<div class="header-bar">
+    <div>
+        <h1> Hello {{request.user.username|title}} </h1>
+        <h3 style="margin:0"> You have <i> {{count}}</i> incomplete task{{count|pluralize:"s"}}.</h3>
+    </div>
+    <!--Check if the user is authenticated-->
+    {% if request.user.is_authenticated %}
+    <!--<p>{{request.user}}</p>-->
+    <a href="{% url 'logout' %}"> Logout </a>
+    {% else %}
+    <a href="{% url 'login' %}"> Login </a>
+    {% endif %}
+</div>
+
+
+
+
+
+<!--<hr>
+<h1>MY TO DO LIST</h1>-->
+<div id="search-form-id">
+    <!--Search form-->
+    <form method="GET" style="margin-top: 20px; display: flex;">
+        <input type="text" name="search-area" value="{{search_input}}">
+        <input class="search-button" type="submit" value="Search">
+    </form>
+    <!--Creating add button-->
+    <a id="add-icon" href="{% url 'create-task' %}"> Add Task </a> 
+</div>
+
+<a id="add-icon" href="{% url 'nearby-shops' %}"> See Nearby Shops </a> 
+
+
+
+<div class="items-wrapper">
+    {% for task in list %}
+    <div class="task-wrapper">
+        {% if task.complete %}
+            <div class="title-wrapper">
+                <div class="complete-sign">
+                </div>
+                <i><s><a href="{% url 'update-task' task.id %}">{{task}}</a></s></i>
+            </div>
+        <a class="delete-icon" href="{% url 'delete-task' task.id %}">&#215;</a><!--&#215 is the html code for 'x' value-->
+        {% else %}
+        <div class="title-wrapper">
+            <div class="incomplete-sign">
+            </div>
+            <a href="{% url 'update-task' task.id %}">{{task}}</a>
+        </div>
+        <a class="delete-icon" href="{% url 'delete-task' task.id %}">&#215;</a><!--&#215 is the html code for 'x' value-->
+        {% endif %}
+        
+    </div>
+    {% empty %}
+        <div style="color: rgb(79, 168, 251); ">
+            <div style="text-align:center; " >
+                <h3 style="font-size: 30px;" id="add-icon"> No tasks in the list </h3>
+            </div>
+        </div>
+        
+    {% endfor %}
+</div>
+
+
+
+<!--Rendering out the data into a table-->
+<!--Commenting out the code for table and using the CSS flex box style as written above-->
+<!--<table>
+    <tr>
+        <th>Tasks</th>
+        <th></th>
+        <th></th>
+    </tr>-->
+    <!--Looping through the items-->
+    
+    <!--{% for task in list %} Here list is the object_list. Renamed in views.py-->
+    <!--<tr>
+        <td>{{task.title}}</td>
+        <td><a href="{% url 'update-task' task.id %}"> Edit </a></td>
+        <td><a href="{% url 'delete-task' task.id %}"> Delete </a></td>
+        
+    </tr>-->
+    <!--If the list is empty then send the following message-->
+    <!--{% empty %}
+        <h3>No tasks in the list</h3>
+    {% endfor %}
+</-table>
+{% endblock content %}-->

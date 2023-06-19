@@ -1,0 +1,853 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.59 e21c39fe",
+  "osm3s": {
+    "timestamp_osm_base": "2022-12-17T02:40:51Z",
+    "timestamp_areas_base": "2022-12-17T02:31:38Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2718231516,
+      "lat": 42.0959244,
+      "lon": -75.9262254,
+      "tags": {
+        "name": "Leroy Package Store",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2718231543,
+      "lat": 42.0955926,
+      "lon": -75.9265262,
+      "tags": {
+        "name": "Cavanaugh's",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2718234766,
+      "lat": 42.0956499,
+      "lon": -75.9261807,
+      "tags": {
+        "name": "Laundromat",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3817284957,
+      "lat": 42.1047268,
+      "lon": -75.8899687,
+      "tags": {
+        "brand": "Dick's Sporting Goods",
+        "brand:wikidata": "Q5272601",
+        "name": "Dick's Sporting Goods",
+        "shop": "sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4380469435,
+      "lat": 42.0791329,
+      "lon": -75.9145267,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "125",
+        "addr:postcode": "13903",
+        "addr:state": "NY",
+        "addr:street": "Park Avenue",
+        "name": "Chenango Point Cycles",
+        "opening_hours": "Mo-Th 10:00-19:00; Fr,Sa 10:00-17:00",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4744998284,
+      "lat": 42.0894596,
+      "lon": -75.9142344,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "1173",
+        "addr:postcode": "13903",
+        "addr:state": "NY",
+        "addr:street": "Vestal Avenue",
+        "brand": "Family Dollar",
+        "brand:wikidata": "Q5433101",
+        "brand:wikipedia": "en:Family Dollar",
+        "name": "Family Dollar",
+        "opening_hours": "08:00-22:00",
+        "shop": "variety_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5644781352,
+      "lat": 42.1046682,
+      "lon": -75.8825632,
+      "tags": {
+        "shop": "convenience",
+        "source": "Mapbox"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5644781406,
+      "lat": 42.1075353,
+      "lon": -75.8859492,
+      "tags": {
+        "shop": "convenience",
+        "source": "Mapbox"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5646594460,
+      "lat": 42.108759,
+      "lon": -75.9144773,
+      "tags": {
+        "shop": "convenience",
+        "source": "Mapbox"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5764720215,
+      "lat": 42.0988528,
+      "lon": -75.9135729,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "45",
+        "addr:postcode": "13901",
+        "addr:state": "NY",
+        "addr:street": "Court Street",
+        "addr:unit": "5",
+        "name": "M & D R Nuts",
+        "phone": "+1-607-724-3402",
+        "shop": "health_food",
+        "website": "https://mndrnuts.net/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5764720217,
+      "lat": 42.098863,
+      "lon": -75.9138104,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "39",
+        "addr:postcode": "13901",
+        "addr:state": "NY",
+        "addr:street": "Court Street",
+        "name": "Imagicka",
+        "shop": "gift"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5764720220,
+      "lat": 42.0988569,
+      "lon": -75.9141555,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:flats": "1-2",
+        "addr:housenumber": "31",
+        "addr:postcode": "13901",
+        "addr:state": "NY",
+        "addr:street": "Court Street",
+        "name": "Fantasy spa",
+        "nysgissam:nysaddresspointid": "BROO108254;BROO053888;BROO094664",
+        "shop": "beauty"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5764720222,
+      "lat": 42.0988592,
+      "lon": -75.9142937,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "27",
+        "addr:postcode": "13901",
+        "addr:state": "NY",
+        "addr:street": "Court Street",
+        "name": "Old World Deli",
+        "shop": "deli"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5764720223,
+      "lat": 42.0988556,
+      "lon": -75.914399,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "25",
+        "addr:postcode": "13901",
+        "addr:state": "NY",
+        "addr:street": "Court Street",
+        "name": "Jakes Wine & Liquors",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 12:00-18:00",
+        "phone": "+16072381556",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6241110188,
+      "lat": 42.1172268,
+      "lon": -75.9019425,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "511",
+        "addr:postcode": "13901",
+        "addr:state": "NY",
+        "addr:street": "Chenango Street",
+        "addr:unit": "2",
+        "name": "Northside Deli & Grocery",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "shop": "deli;convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6241110189,
+      "lat": 42.1172692,
+      "lon": -75.9019343,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "511",
+        "addr:postcode": "13901",
+        "addr:state": "NY",
+        "addr:street": "Chenango Street",
+        "addr:unit": "3",
+        "name": "Northside Laundramat",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6624640825,
+      "lat": 42.0923805,
+      "lon": -75.9475914,
+      "tags": {
+        "name": "Homestead Funding Corp",
+        "shop": "money_lender"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6624640826,
+      "lat": 42.0924086,
+      "lon": -75.9476919,
+      "tags": {
+        "addr:city": "Vestal",
+        "addr:housenumber": "4777",
+        "addr:postcode": "13850",
+        "addr:state": "NY",
+        "addr:street": "Vestal Parkway East",
+        "name": "Knead Relief Massage",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "phone": "+16072175190",
+        "shop": "massage",
+        "website": "kneadreliefmassage.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6624640827,
+      "lat": 42.0924649,
+      "lon": -75.947855,
+      "tags": {
+        "shop": "shoes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6624640828,
+      "lat": 42.0925395,
+      "lon": -75.9480599,
+      "tags": {
+        "addr:city": "Vestal",
+        "addr:housenumber": "4777",
+        "addr:postcode": "13850",
+        "addr:state": "NY",
+        "addr:street": "Vestal Parkway East",
+        "branch": "Binghamton",
+        "brand": "Talbots",
+        "brand:wikidata": "Q7679064",
+        "brand:wikipedia": "en:Talbots",
+        "clothes": "women",
+        "name": "Talbots",
+        "opening_hours": "Mo-Sa 10:00-18:00; Su 12:00-16:00",
+        "phone": "+16077729336",
+        "shop": "clothes",
+        "website": "https://www.talbots.com/store?StoreID=00293"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7966597020,
+      "lat": 42.1046444,
+      "lon": -75.8848992,
+      "tags": {
+        "name": "Toyota",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7966597021,
+      "lat": 42.1044912,
+      "lon": -75.8880615,
+      "tags": {
+        "name": "Big Tire and Auto",
+        "shop": "tyres"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7966597022,
+      "lat": 42.1045131,
+      "lon": -75.8888689,
+      "tags": {
+        "brand": "Dollar General",
+        "brand:wikidata": "Q145168",
+        "name": "Dollar General",
+        "shop": "variety_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7966602816,
+      "lat": 42.1077388,
+      "lon": -75.9144437,
+      "tags": {
+        "name": "U-Haul",
+        "shop": "storage_rental"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7966602829,
+      "lat": 42.0985667,
+      "lon": -75.9132515,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "52",
+        "addr:postcode": "13901",
+        "addr:state": "NY",
+        "addr:street": "Court Street",
+        "name": "Sall Sterns",
+        "nysgissam:nysaddresspointid": "BROO031779",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8265289341,
+      "lat": 42.1018928,
+      "lon": -75.9282391,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "129",
+        "addr:postcode": "13905",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "books": "anarchism",
+        "contact:facebook": "https://www.facebook.com/RIOTACTBING",
+        "contact:instagram": "https://www.instagram.com/riotactbooks",
+        "description": "Volunteer-run book shop with the goal to provide the community with relevant and affordable reading material that educates, agitates, and inspires positive change.",
+        "email": "riotactbing@protonmail.com",
+        "name": "Riot Act",
+        "opening_hours": "Th,Fr 14:00-20:00; Sa,Su 12:00-17:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "books",
+        "website": "https://www.riotactbooks.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8793435215,
+      "lat": 42.1064534,
+      "lon": -75.8892782,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:flats": "2-3;7",
+        "addr:housenumber": "160",
+        "addr:postcode": "13904",
+        "addr:state": "NY",
+        "addr:street": "Robinson Street",
+        "brand": "Weis",
+        "brand:wikidata": "Q7980370",
+        "name": "Weis",
+        "nysgissam:nysaddresspointid": "BROO110186;BROO109940;BROO110056;BROO017367",
+        "official_name": "Weis Markets",
+        "opening_hours": "Mo-Su 07:00-9:00pm",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "phone": "(607) 762-5409",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8793438196,
+      "lat": 42.0994899,
+      "lon": -75.9231997,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "77",
+        "addr:postcode": "13905",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "name": "Jay's One Stop",
+        "nysgissam:nysaddresspointid": "BROO006939",
+        "opening_hours": "05:00-23:00",
+        "phone": "+1 607 296 7689",
+        "ref": "4",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8793440657,
+      "lat": 42.0949573,
+      "lon": -75.893213,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "236",
+        "addr:postcode": "13903",
+        "addr:state": "NY",
+        "addr:street": "Conklin Avenue",
+        "brand": "Speedway",
+        "brand:wikidata": "Q7575683",
+        "brand:wikipedia": "en:Speedway (store)",
+        "name": "Speedway",
+        "nysgissam:nysaddresspointid": "BROO019999",
+        "ref": "7729",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8793443888,
+      "lat": 42.1078194,
+      "lon": -75.8892508,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "163",
+        "addr:postcode": "13904",
+        "addr:state": "NY",
+        "addr:street": "Robinson Street",
+        "brand": "CVS Pharmacy",
+        "brand:wikidata": "Q2078880",
+        "name": "CVS Pharmacy",
+        "nysgissam:nysaddresspointid": "BROO114419",
+        "opening_hours": "Mo-Su 08:00am-10pm",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "607) 722-4976",
+        "shop": "chemist",
+        "short_name": "CVS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8793457704,
+      "lat": 42.0972197,
+      "lon": -75.8887703,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "307",
+        "addr:postcode": "13903",
+        "addr:state": "NY",
+        "addr:street": "Conklin Avenue",
+        "brand": "Weis",
+        "brand:wikidata": "Q7980370",
+        "brand:wikipedia": "en:Weis Markets",
+        "name": "Weis",
+        "nysgissam:nysaddresspointid": "BROO039994",
+        "official_name": "Weis Markets",
+        "ref": "213",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8793461820,
+      "lat": 42.099166,
+      "lon": -75.9215217,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "63",
+        "addr:postcode": "13905",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "brand": "Speedway",
+        "brand:wikidata": "Q7575683",
+        "brand:wikipedia": "en:Speedway (store)",
+        "name": "Speedway",
+        "nysgissam:nysaddresspointid": "BROO007599",
+        "ref": "7686",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8793475996,
+      "lat": 42.1027539,
+      "lon": -75.9287273,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "146",
+        "addr:postcode": "13905",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "name": "A-1 Grocery & Halal Meat",
+        "nysgissam:nysaddresspointid": "BROO073888",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8793495110,
+      "lat": 42.0995957,
+      "lon": -75.920199,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "56",
+        "addr:postcode": "13905",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "name": "Family Dollar",
+        "nysgissam:nysaddresspointid": "BROO055514",
+        "ref": "9060",
+        "shop": "variety_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8793519676,
+      "lat": 42.1028017,
+      "lon": -75.9298073,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "153",
+        "addr:postcode": "13905",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "name": "Family Delight's",
+        "nysgissam:nysaddresspointid": "BROO053090",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9432511967,
+      "lat": 42.0966273,
+      "lon": -75.8877638,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "306",
+        "addr:postcode": "13903",
+        "addr:state": "NY",
+        "addr:street": "Conklin Avenue",
+        "name": "Apple Food & Grocery",
+        "opening_hours": "Mo-Fr 05:00-24:00; Sa 05:30-24:00; Su 06:00-23:00",
+        "phone": "+1 607 772 8240",
+        "ref": "9",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9435088720,
+      "lat": 42.1120343,
+      "lon": -75.9393675,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "59",
+        "addr:postcode": "13905",
+        "addr:state": "NY",
+        "addr:street": "Glenwood Avenue",
+        "brand": "Speedway",
+        "brand:wikidata": "Q7575683",
+        "brand:wikipedia": "en:Speedway (store)",
+        "name": "Speedway",
+        "ref": "7725",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 83606899,
+      "lat":42.10818029339625,
+      "lon":-75.93619689287554,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:postcode": "13905",
+        "addr:street": "Glenwood Avenue",
+        "building": "yes",
+        "name": "Price Chopper",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 296300518,
+      "lat":42.106795631321965, 
+      "lon":-75.88924423282936,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "50",
+        "addr:postcode": "13903",
+        "addr:state": "NY",
+        "addr:street": "Pennsylvania Avenue",
+        "building": "commercial",
+        "name": "Weis Markets #220",
+        "opening_hours": "06:00-23:00",
+        "operator": "Weis Markets, Inc.",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450684777,
+      "lat":42.1058017944014, 
+      "lon":-75.93357234446812,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "38",
+        "addr:postcode": "13903",
+        "addr:state": "NY",
+        "addr:street": "Pennsylvania Avenue",
+        "brand": "AutoZone",
+        "brand:wikidata": "Q4826087",
+        "brand:wikipedia": "en:AutoZone",
+        "building": "commercial",
+        "name": "AutoZone",
+        "opening_hours": "Mo-Sa 07:30-21:00; Su 09:00-19:00",
+        "shop": "car_parts"
+      }
+    },
+    {
+      "type": "way",
+      "id": 450684779,
+      "lat":42.10758093269621, 
+      "lon":-75.93737588864869,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "42",
+        "addr:postcode": "13903",
+        "addr:state": "NY",
+        "addr:street": "Pennsylvania Avenue",
+        "building": "retail",
+        "name": "Smoker's Choice",
+        "opening_hours": "Mo-Th,Sa 08:30-20:00; Fr 08:30-21:00; Su 09:00-18:00",
+        "shop": "tobacco"
+      }
+    },
+    {
+      "type": "way",
+      "id": 451655239,
+      "lat":42.0908667130756, 
+      "lon":-75.9139246500274,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "1184",
+        "addr:postcode": "13903",
+        "addr:state": "NY",
+        "addr:street": "Vestal Avenue",
+        "alt_name": "Emil's Jewelry Design",
+        "building": "yes",
+        "name": "Emil's Jewelry",
+        "opening_hours": "Tu-Fr 10:00-18:00; Sa 10:00-16:00",
+        "phone": "+1-607-722-1436",
+        "shop": "jewelry",
+        "start_date": "1999",
+        "website": "https://emilsjewelry.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 479176096,
+      "lat":42.08944721663911, 
+      "lon":-75.91487173097703,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "1177",
+        "addr:postcode": "13903",
+        "addr:state": "NY",
+        "addr:street": "Vestal Avenue",
+        "building": "yes",
+        "drive_through": "no",
+        "name": "Southbridge Wines & Spirits",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 12:00-17:00",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "way",
+      "id": 479176101,
+      "lat":42.08979593025452, 
+      "lon":-75.91346213282993,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "51",
+        "addr:postcode": "13903",
+        "addr:state": "NY",
+        "addr:street": "South Washington Street",
+        "building": "retail",
+        "drive_through": "no",
+        "name": "Robby's Discount Wine & Liquor",
+        "opening_hours": "Mo-Th 09:00-21:00; Fr,Sa 09:00-22:00; Su 12:00-18:00",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "way",
+      "id": 618604019,
+      "lat":42.09959481948217, 
+      "lon":-75.91354809921789,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "127",
+        "addr:postcode": "13901",
+        "addr:state": "NY",
+        "addr:street": "Washington Street",
+        "brand": "The Salvation Army",
+        "brand:wikidata": "Q188307",
+        "brand:wikipedia": "en:The Salvation Army",
+        "building": "yes",
+        "name": "The Salvation Army",
+        "nysgissam:nysaddresspointid": "BROO006772",
+        "shop": "charity"
+      }
+    },
+    {
+      "type": "way",
+      "id": 666592784,
+      "lat":42.12378308138795, 
+      "lon":-75.9017011814029,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "520",
+        "addr:postcode": "13901",
+        "addr:state": "NY",
+        "addr:street": "Chenango Street",
+        "building": "yes",
+        "name": "Mirabito",
+        "operator": "Mirabito",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 666794091,
+      "lat":42.11121423100627, 
+      "lon":-75.90246940028719,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "412",
+        "addr:postcode": "13901",
+        "addr:state": "NY",
+        "addr:street": "Chenango Street",
+        "brand": "Family Dollar",
+        "brand:wikidata": "Q5433101",
+        "brand:wikipedia": "en:Family Dollar",
+        "building": "yes",
+        "name": "Family Dollar",
+        "operator": "Family Dollar",
+        "shop": "variety_store"
+      }
+    },
+    {
+      "type": "way",
+      "id": 666794102,
+      "lat":42.106514215370886, 
+      "lon":-75.90514050214034,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "266",
+        "addr:postcode": "13901",
+        "addr:state": "NY",
+        "addr:street": "Chenango Street",
+        "building": "yes",
+        "name": "Apple Food & Grocery",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 667799876,
+      "lat":42.11708497997759, 
+      "lon":-75.90202704296442,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "509",
+        "addr:postcode": "13901",
+        "addr:state": "NY",
+        "addr:street": "Chenango Street",
+        "building": "yes",
+        "name": "Rocky & Son Hairstyling",
+        "operator": "Rocky & Joey Verrastro",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "lat":42.1074545884824, 
+      "lon":-75.93503173093431,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:postcode": "13905",
+        "addr:street": "Glenwood Avenue",
+        "building": "yes",
+        "name": "Big Lots",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "lat":42.105599974300794, 
+      "lon":-75.93525703647867,
+      "tags": {
+        "addr:housenumber": "223",
+        "addr:postcode": "13905",
+        "addr:street": "Main Street",
+        "building": "yes",
+        "name": "Banyan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "lat":42.10502985823979, 
+      "lon":-75.93266763864982,
+      "tags": {
+        "addr:housenumber": "200",
+        "addr:postcode": "13905",
+        "addr:street": "Main Street",
+        "building": "yes",
+        "name": "Asia Food Store",
+        "shop": "supermarket"
+      }
+    }
+  ]
+}

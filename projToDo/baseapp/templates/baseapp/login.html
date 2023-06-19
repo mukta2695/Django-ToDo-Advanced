@@ -1,0 +1,20 @@
+{% extends 'baseapp/main.html' %}
+{% block content %}
+
+<div class="header-bar">
+    <h1>Login</h1>
+</div>
+<div class="body">
+    <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input class="search-button" type="submit" value="Login">
+    </form>
+    <!--For new user, Sign Up functionality-->
+    <p> Don't have an account?  <a id="cancel-icon" href="{% url 'signup' %}"> Sign Up </a> </p>
+</div>
+
+
+
+
+{% endblock content %}

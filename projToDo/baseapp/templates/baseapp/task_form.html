@@ -1,0 +1,16 @@
+{% extends 'baseapp/main.html' %}
+{% block content %}
+
+
+<div class="body">
+    <h3 class="header-bar" id="add-header">Add Your Task</h3>
+    <form method="POST" action="">
+        {%csrf_token%} <!--This is used to protect forgery requets-->
+        {{form.as_p}}
+        <p><br></p>
+        <input class="search-button" type="submit" value="Submit">
+        <a id="cancel-icon" href="{% url 'tasks' %}"> Cancel</a> <!--If we don't want to create an item-->
+    </form>
+</div>
+
+{% endblock content %}
